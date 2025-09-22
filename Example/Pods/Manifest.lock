@@ -1,0 +1,16 @@
+PODS:
+  - HBRSAHandler (0.1.0)
+
+DEPENDENCIES:
+  - HBRSAHandler (from `../`)
+
+EXTERNAL SOURCES:
+  HBRSAHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBRSAHandler: dd8976a593367ae094eef0fca2468d4553f1bf5b
+
+PODFILE CHECKSUM: 13d63ccef29270317e6b510d0924349cfd6d888c
+
+COCOAPODS: 1.16.2
