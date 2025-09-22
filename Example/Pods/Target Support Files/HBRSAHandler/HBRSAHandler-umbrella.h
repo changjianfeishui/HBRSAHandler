@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HBRSAHandler.h"
 
 FOUNDATION_EXPORT double HBRSAHandlerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HBRSAHandlerVersionString[];

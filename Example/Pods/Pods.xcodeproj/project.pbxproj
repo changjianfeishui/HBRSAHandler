@@ -6,73 +6,114 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC740FD4C282954C3F93AC45A021CC5E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+				67810109B959BF86E8C975A649BE36A3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1B318479F861F3B6E0A7F0B32ABFE4FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1158209B92AAC6928E4833CD59208AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		26F01FB80D5A332EBA2FBCE5C159C1E0 /* HBRSAHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF37C8F474DEAB8325629D817F450A /* HBRSAHandler.m */; };
 		2B1EB1001D46B0FD927B2457B86F8613 /* Pods-HBRSAHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73AAE4AFDAE35FDF2FF35ACEFF68763 /* Pods-HBRSAHandler_Tests-dummy.m */; };
 		37535811290136892B5B79EDAA736584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		63DA98999D98AAA25F3D4A91DCBCB49C /* Pods-HBRSAHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE633E48B6DBAE63A6608C3CE55D73B /* Pods-HBRSAHandler_Example-dummy.m */; };
-		6CE822696C19C80C62123E587874175B /* Pods-HBRSAHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0F94A0ED3B39010B5B00A8D89743BD /* Pods-HBRSAHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D5C6DBCFEEFC2DB5502CA7F29C944E6 /* HBRSAHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D839039000BC7A3460282C67DFE7E3 /* HBRSAHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79CA2B31DB7A9B0E784D5BA88D1CAC24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		86C3D2AD95B5535681ABC78A9C20AE0C /* Pods-HBRSAHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE633E48B6DBAE63A6608C3CE55D73B /* Pods-HBRSAHandler_Example-dummy.m */; };
+		8C73F8B476EA2B9C0B259D119A46FD10 /* Pods-HBRSAHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0F94A0ED3B39010B5B00A8D89743BD /* Pods-HBRSAHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4492E3B35311704321B719234951C08 /* Pods-HBRSAHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEA9E320DA677BFFE9E2D03ABDA4810 /* Pods-HBRSAHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4F9CB3A022C18AD9864B26E60941589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		C93719C44F4C94ACA0166BC4BA47CB70 /* HBRSAHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823E03AC4A6E81A618B9E0BDC06F5ED /* HBRSAHandler-dummy.m */; };
-		CB14E0FFA024371F4490B6992888295C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A2900BAF25E35D228CA6087DC24B227D /* ReplaceMe.m */; };
+		C62BD9832D24BE23965AC6B0DDE6F280 /* HBRSAHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 06434C836623C28D4BB2CE1CC1AD4796 /* HBRSAHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF915E8A4ECFAE5511E1A9B2AD2E4175 /* HBRSAHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8477A98DB2F1BC0880CDDEA6AE33265 /* HBRSAHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79158CE4B46F9348C0C6EFF3269E194 /* HBRSAHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B551F4AF44724A741336DCB8D29611C /* HBRSAHandler-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5E976C8A07E54F486624EBD87599C131 /* PBXContainerItemProxy */ = {
+		33FE4148280D3FF1E9B8E10F17A0DBCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D16B24B565D34688D902E170EB26A59D;
 			remoteInfo = "Pods-HBRSAHandler_Example";
 		};
-		ED2193BBB1D413A4AD4D9511F18CBE34 /* PBXContainerItemProxy */ = {
+		4E3991EBAE70DF9FAFA2B95FFB50112A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		97FA987FCDBFBC84BD26B6D9E00DD3FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3192CA75380F26B6C92E987B640D64C9;
 			remoteInfo = HBRSAHandler;
 		};
+		A58EFAD34EA6538046AE988A6111A4B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01BA459ABFB901808D667886754843A0 /* Pods-HBRSAHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBRSAHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06434C836623C28D4BB2CE1CC1AD4796 /* HBRSAHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBRSAHandler.h; path = HBRSAHandler/Classes/HBRSAHandler.h; sourceTree = "<group>"; };
 		065DC589FEE7FA73AB3636C60503A74C /* Pods-HBRSAHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRSAHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F0F94A0ED3B39010B5B00A8D89743BD /* Pods-HBRSAHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRSAHandler_Example-umbrella.h"; sourceTree = "<group>"; };
-		1823E03AC4A6E81A618B9E0BDC06F5ED /* HBRSAHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRSAHandler-dummy.m"; sourceTree = "<group>"; };
-		1A06FCB58BB2E5BBB3612288F7E2BBF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1F75410BFC4D6DD18AAC91CD1FDC72D3 /* HBRSAHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBRSAHandler-Info.plist"; sourceTree = "<group>"; };
+		1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
 		2098F730447752A9D9BE87CAD652A2E9 /* Pods-HBRSAHandler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRSAHandler_Tests-Info.plist"; sourceTree = "<group>"; };
 		318C93C01E4C3DD66DF2D91A410EF318 /* Pods-HBRSAHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRSAHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41CCC66089485E6C3D7BD9821F3F4782 /* HBRSAHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBRSAHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4225CB3C61BD00C2D910E8F0D0FC59A0 /* HBRSAHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRSAHandler.release.xcconfig; sourceTree = "<group>"; };
+		42E72238DECAB4D76415BE792368B92E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		44246AB40973FDEC72D2EF0F9C1D221C /* Pods-HBRSAHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBRSAHandler_Example.modulemap"; sourceTree = "<group>"; };
-		48B31E78CFD3A6B929C52A6F45E2242E /* HBRSAHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRSAHandler.release.xcconfig; sourceTree = "<group>"; };
 		4CCA7561DDA0EB31CB156848D2630136 /* Pods-HBRSAHandler_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBRSAHandler_Example"; path = Pods_HBRSAHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E02CD7ED41B7DD463FC642287489B8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5FBDD5AD318B4F9FCA6DD10569A5E72A /* HBRSAHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBRSAHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C9016A565731955BF3514E5498E3AB2 /* HBRSAHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBRSAHandler-Info.plist"; sourceTree = "<group>"; };
 		605FC3797FE1B7101D108CBFFCF281D1 /* Pods-HBRSAHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRSAHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6180219EA800BA3A31E5F036DD78D4D1 /* HBRSAHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBRSAHandler.modulemap; sourceTree = "<group>"; };
 		6A5D3B473C2C301FF3C9E740CA214B09 /* Pods-HBRSAHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRSAHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6FCC5C9D0CA7277DDF91AA386E69EE28 /* Pods-HBRSAHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBRSAHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DEA9E320DA677BFFE9E2D03ABDA4810 /* Pods-HBRSAHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRSAHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
 		91004760D25DE90A8777A1C658EEBFDF /* Pods-HBRSAHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBRSAHandler_Tests.modulemap"; sourceTree = "<group>"; };
 		9778C30CA1AA6EF2D78932B4A6202BA7 /* Pods-HBRSAHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRSAHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		98DB9C647C1932A1571797F292C8A9EC /* Pods-HBRSAHandler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRSAHandler_Example-Info.plist"; sourceTree = "<group>"; };
+		9B551F4AF44724A741336DCB8D29611C /* HBRSAHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRSAHandler-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0AF93EB7B8C20E6E16E7BA3B9735D6F /* HBRSAHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRSAHandler.debug.xcconfig; sourceTree = "<group>"; };
-		A0D839039000BC7A3460282C67DFE7E3 /* HBRSAHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRSAHandler-umbrella.h"; sourceTree = "<group>"; };
-		A0FB20F17491408EE08961A68638406B /* HBRSAHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRSAHandler-prefix.pch"; sourceTree = "<group>"; };
-		A2900BAF25E35D228CA6087DC24B227D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HBRSAHandler/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
+		AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
 		AB7398156E0CA7FDDA1B1D15D9983698 /* HBRSAHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBRSAHandler; path = HBRSAHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA85D695A43A5BFB26C93E3FECE7F938 /* HBRSAHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBRSAHandler.modulemap; sourceTree = "<group>"; };
 		BEE633E48B6DBAE63A6608C3CE55D73B /* Pods-HBRSAHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBRSAHandler_Example-dummy.m"; sourceTree = "<group>"; };
+		C10FA30E0A7C32DC04475D502844546C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C73AAE4AFDAE35FDF2FF35ACEFF68763 /* Pods-HBRSAHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBRSAHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7EF37C8F474DEAB8325629D817F450A /* HBRSAHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBRSAHandler.m; path = HBRSAHandler/Classes/HBRSAHandler.m; sourceTree = "<group>"; };
+		C8477A98DB2F1BC0880CDDEA6AE33265 /* HBRSAHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRSAHandler-umbrella.h"; sourceTree = "<group>"; };
+		CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F2FF1190A2850439249ABC28428648 /* HBRSAHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRSAHandler-prefix.pch"; sourceTree = "<group>"; };
 		D988E6A7D2F6422DC6DD30E1A67A507F /* Pods-HBRSAHandler_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBRSAHandler_Tests"; path = Pods_HBRSAHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE6F95174687AE9B5ED27B174DCB9E4 /* Pods-HBRSAHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBRSAHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E09F83B51D6611386A6268E0CE5C202B /* HBRSAHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRSAHandler.debug.xcconfig; sourceTree = "<group>"; };
 		ECDD854B2B50AB4971C459739A7CC825 /* Pods-HBRSAHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRSAHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C55B973BFC858CBDB166AE6EE326B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1158209B92AAC6928E4833CD59208AAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		418CAAE56A1378540702676D9E00EAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,19 +122,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AB87D06FE6103E3D3CE4796156AB22C /* Frameworks */ = {
+		F225AA9F02F4E871B632B11F38D215A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F9CB3A022C18AD9864B26E60941589 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCFD018FE052C7777FE29121866BC334 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B318479F861F3B6E0A7F0B32ABFE4FF /* Foundation.framework in Frameworks */,
+				79CA2B31DB7A9B0E784D5BA88D1CAC24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,38 +158,78 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		528B4C2FA51D47963746EDCD7EF200F0 /* Development Pods */ = {
+		2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FC24DDD519686EB2DDC81D981B10283 /* HBRSAHandler */,
+				AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5EB952D870F5AB73950C86947C41C156 /* Support Files */ = {
+		316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA85D695A43A5BFB26C93E3FECE7F938 /* HBRSAHandler.modulemap */,
-				1823E03AC4A6E81A618B9E0BDC06F5ED /* HBRSAHandler-dummy.m */,
-				1F75410BFC4D6DD18AAC91CD1FDC72D3 /* HBRSAHandler-Info.plist */,
-				A0FB20F17491408EE08961A68638406B /* HBRSAHandler-prefix.pch */,
-				A0D839039000BC7A3460282C67DFE7E3 /* HBRSAHandler-umbrella.h */,
-				A0AF93EB7B8C20E6E16E7BA3B9735D6F /* HBRSAHandler.debug.xcconfig */,
-				48B31E78CFD3A6B929C52A6F45E2242E /* HBRSAHandler.release.xcconfig */,
+				A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */,
+				CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */,
+				1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		4E62780B97D6C66BACF776DF12651B8A /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */,
+				316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		6D1BE8FFE496E603DD5BB0D189FFA583 /* HBRSAHandler */ = {
+			isa = PBXGroup;
+			children = (
+				06434C836623C28D4BB2CE1CC1AD4796 /* HBRSAHandler.h */,
+				C7EF37C8F474DEAB8325629D817F450A /* HBRSAHandler.m */,
+				806074AD08E59C7D4E81F8BB8BDCAA75 /* Pod */,
+				7EDCD2C038B2BE1459556878C4BF3406 /* Support Files */,
+			);
+			name = HBRSAHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7EDCD2C038B2BE1459556878C4BF3406 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6180219EA800BA3A31E5F036DD78D4D1 /* HBRSAHandler.modulemap */,
+				9B551F4AF44724A741336DCB8D29611C /* HBRSAHandler-dummy.m */,
+				5C9016A565731955BF3514E5498E3AB2 /* HBRSAHandler-Info.plist */,
+				D2F2FF1190A2850439249ABC28428648 /* HBRSAHandler-prefix.pch */,
+				C8477A98DB2F1BC0880CDDEA6AE33265 /* HBRSAHandler-umbrella.h */,
+				E09F83B51D6611386A6268E0CE5C202B /* HBRSAHandler.debug.xcconfig */,
+				4225CB3C61BD00C2D910E8F0D0FC59A0 /* HBRSAHandler.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HBRSAHandler";
 			sourceTree = "<group>";
 		};
-		6FC24DDD519686EB2DDC81D981B10283 /* HBRSAHandler */ = {
+		806074AD08E59C7D4E81F8BB8BDCAA75 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A2900BAF25E35D228CA6087DC24B227D /* ReplaceMe.m */,
-				BEC7D996D5C6ED2CFD8D55347483A450 /* Pod */,
-				5EB952D870F5AB73950C86947C41C156 /* Support Files */,
+				41CCC66089485E6C3D7BD9821F3F4782 /* HBRSAHandler.podspec */,
+				C10FA30E0A7C32DC04475D502844546C /* LICENSE */,
+				42E72238DECAB4D76415BE792368B92E /* README.md */,
 			);
-			name = HBRSAHandler;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8479BAA8FF147F675C3CCF6774776249 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E62780B97D6C66BACF776DF12651B8A /* OpenSSL-Universal */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		94CAE3D45B9E50D6186F2B50FA91438E /* Pods-HBRSAHandler_Example */ = {
@@ -186,22 +259,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEC7D996D5C6ED2CFD8D55347483A450 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5FBDD5AD318B4F9FCA6DD10569A5E72A /* HBRSAHandler.podspec */,
-				1A06FCB58BB2E5BBB3612288F7E2BBF1 /* LICENSE */,
-				4E02CD7ED41B7DD463FC642287489B8E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				528B4C2FA51D47963746EDCD7EF200F0 /* Development Pods */,
+				FFAA777E61364A4185AEF2ABF255987D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8479BAA8FF147F675C3CCF6774776249 /* Pods */,
 				A78412B7FD1419C417DB08D5BF417471 /* Products */,
 				1C5451746225119126BF42738B7082A9 /* Targets Support Files */,
 			);
@@ -223,22 +287,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FFAA777E61364A4185AEF2ABF255987D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1BE8FFE496E603DD5BB0D189FFA583 /* HBRSAHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6680F4F32CE830A14456C15A6EBA2023 /* Headers */ = {
+		0E816A511491CF3D32B26D1B44FD97C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CE822696C19C80C62123E587874175B /* Pods-HBRSAHandler_Example-umbrella.h in Headers */,
+				C62BD9832D24BE23965AC6B0DDE6F280 /* HBRSAHandler.h in Headers */,
+				CF915E8A4ECFAE5511E1A9B2AD2E4175 /* HBRSAHandler-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72E2DD304879824BDC4896110C639ABF /* Headers */ = {
+		0F0FA12986E349CCD10186008E34E604 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D5C6DBCFEEFC2DB5502CA7F29C944E6 /* HBRSAHandler-umbrella.h in Headers */,
+				8C73F8B476EA2B9C0B259D119A46FD10 /* Pods-HBRSAHandler_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,16 +328,17 @@
 /* Begin PBXNativeTarget section */
 		3192CA75380F26B6C92E987B640D64C9 /* HBRSAHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F2DA0430B1B34762500C77264AA7830 /* Build configuration list for PBXNativeTarget "HBRSAHandler" */;
+			buildConfigurationList = E7DAD71C494628D8A256530DE38FC75F /* Build configuration list for PBXNativeTarget "HBRSAHandler" */;
 			buildPhases = (
-				72E2DD304879824BDC4896110C639ABF /* Headers */,
-				B1BA1FD4ABA9D90ABDBA01C73FF083AB /* Sources */,
-				4AB87D06FE6103E3D3CE4796156AB22C /* Frameworks */,
-				7B7A3053E4731BED14C1A8390CCFD5D2 /* Resources */,
+				0E816A511491CF3D32B26D1B44FD97C6 /* Headers */,
+				93246064CE15D6B61C0235F7C2237143 /* Sources */,
+				2C55B973BFC858CBDB166AE6EE326B95 /* Frameworks */,
+				6AD9675A20730E0502718857FAB21CC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				43B819CF3551EE9753B2012F7F43CDF4 /* PBXTargetDependency */,
 			);
 			name = HBRSAHandler;
 			productName = HBRSAHandler;
@@ -283,7 +357,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C872ED95875D8703CE6AB15D30D38EAE /* PBXTargetDependency */,
+				0CD62628DE6F338AF90AB0612C6FC0D3 /* PBXTargetDependency */,
 			);
 			name = "Pods-HBRSAHandler_Tests";
 			productName = Pods_HBRSAHandler_Tests;
@@ -292,17 +366,18 @@
 		};
 		D16B24B565D34688D902E170EB26A59D /* Pods-HBRSAHandler_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C3E5EA17BD82B7D5D2E220C81529961 /* Build configuration list for PBXNativeTarget "Pods-HBRSAHandler_Example" */;
+			buildConfigurationList = D3E6C77B46A67FD559FF1122F39A115B /* Build configuration list for PBXNativeTarget "Pods-HBRSAHandler_Example" */;
 			buildPhases = (
-				6680F4F32CE830A14456C15A6EBA2023 /* Headers */,
-				5E55CD2BBEE900F4DA5C1A77A333EEF3 /* Sources */,
-				FCFD018FE052C7777FE29121866BC334 /* Frameworks */,
-				15D188496E2F13F3F2C43BB98E19C7D3 /* Resources */,
+				0F0FA12986E349CCD10186008E34E604 /* Headers */,
+				6C6CB2E4239DFE3467643E0BF84AD026 /* Sources */,
+				F225AA9F02F4E871B632B11F38D215A1 /* Frameworks */,
+				61DA1A84BAE2050E79EF6426A0345E44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				31126DAB430BD14F76077FA208A4B4F2 /* PBXTargetDependency */,
+				745C60BDE872431561476C47A5212387 /* PBXTargetDependency */,
+				B8B3D87DBF8C7765D5062BF72AE2B780 /* PBXTargetDependency */,
 			);
 			name = "Pods-HBRSAHandler_Example";
 			productName = Pods_HBRSAHandler_Example;
@@ -334,6 +409,7 @@
 			projectRoot = "";
 			targets = (
 				3192CA75380F26B6C92E987B640D64C9 /* HBRSAHandler */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
 				D16B24B565D34688D902E170EB26A59D /* Pods-HBRSAHandler_Example */,
 				7C36C3CB95248A889D93273941306BED /* Pods-HBRSAHandler_Tests */,
 			);
@@ -341,14 +417,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15D188496E2F13F3F2C43BB98E19C7D3 /* Resources */ = {
+		61DA1A84BAE2050E79EF6426A0345E44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B7A3053E4731BED14C1A8390CCFD5D2 /* Resources */ = {
+		6AD9675A20730E0502718857FAB21CC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,12 +440,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67810109B959BF86E8C975A649BE36A3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh",
+				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/OpenSSL.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5E55CD2BBEE900F4DA5C1A77A333EEF3 /* Sources */ = {
+		6C6CB2E4239DFE3467643E0BF84AD026 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DA98999D98AAA25F3D4A91DCBCB49C /* Pods-HBRSAHandler_Example-dummy.m in Sources */,
+				86C3D2AD95B5535681ABC78A9C20AE0C /* Pods-HBRSAHandler_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,68 +478,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1BA1FD4ABA9D90ABDBA01C73FF083AB /* Sources */ = {
+		93246064CE15D6B61C0235F7C2237143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93719C44F4C94ACA0166BC4BA47CB70 /* HBRSAHandler-dummy.m in Sources */,
-				CB14E0FFA024371F4490B6992888295C /* ReplaceMe.m in Sources */,
+				26F01FB80D5A332EBA2FBCE5C159C1E0 /* HBRSAHandler.m in Sources */,
+				D79158CE4B46F9348C0C6EFF3269E194 /* HBRSAHandler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		31126DAB430BD14F76077FA208A4B4F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HBRSAHandler;
-			target = 3192CA75380F26B6C92E987B640D64C9 /* HBRSAHandler */;
-			targetProxy = ED2193BBB1D413A4AD4D9511F18CBE34 /* PBXContainerItemProxy */;
-		};
-		C872ED95875D8703CE6AB15D30D38EAE /* PBXTargetDependency */ = {
+		0CD62628DE6F338AF90AB0612C6FC0D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HBRSAHandler_Example";
 			target = D16B24B565D34688D902E170EB26A59D /* Pods-HBRSAHandler_Example */;
-			targetProxy = 5E976C8A07E54F486624EBD87599C131 /* PBXContainerItemProxy */;
+			targetProxy = 33FE4148280D3FF1E9B8E10F17A0DBCC /* PBXContainerItemProxy */;
+		};
+		43B819CF3551EE9753B2012F7F43CDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = A58EFAD34EA6538046AE988A6111A4B2 /* PBXContainerItemProxy */;
+		};
+		745C60BDE872431561476C47A5212387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBRSAHandler;
+			target = 3192CA75380F26B6C92E987B640D64C9 /* HBRSAHandler */;
+			targetProxy = 97FA987FCDBFBC84BD26B6D9E00DD3FB /* PBXContainerItemProxy */;
+		};
+		B8B3D87DBF8C7765D5062BF72AE2B780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 4E3991EBAE70DF9FAFA2B95FFB50112A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2938D136C5FC4CEC69A32B6EFBBF3175 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A5D3B473C2C301FF3C9E740CA214B09 /* Pods-HBRSAHandler_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		374672090177936CFFC8D83F13B0095C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECDD854B2B50AB4971C459739A7CC825 /* Pods-HBRSAHandler_Tests.debug.xcconfig */;
@@ -478,9 +552,80 @@
 			};
 			name = Debug;
 		};
-		77780D25445282E7E292D249FB384988 /* Release */ = {
+		3F07B8F8459A00D755A316D509FE008A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B31E78CFD3A6B929C52A6F45E2242E /* HBRSAHandler.release.xcconfig */;
+			baseConfigurationReference = 605FC3797FE1B7101D108CBFFCF281D1 /* Pods-HBRSAHandler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		445442FE7EA3DCA97E355D244C8E9D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5D3B473C2C301FF3C9E740CA214B09 /* Pods-HBRSAHandler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53957CB8F06380EBEA90697CEA231A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4225CB3C61BD00C2D910E8F0D0FC59A0 /* HBRSAHandler.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -497,7 +642,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/HBRSAHandler/HBRSAHandler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HBRSAHandler/HBRSAHandler.modulemap";
 				PRODUCT_MODULE_NAME = HBRSAHandler;
@@ -576,45 +721,9 @@
 			};
 			name = Release;
 		};
-		923FB4DA39E1B4ABF7D738B24E7F396E /* Release */ = {
+		A80108FBC635D7AAB14E37E31F5BC4F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 605FC3797FE1B7101D108CBFFCF281D1 /* Pods-HBRSAHandler_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HBRSAHandler_Example/Pods-HBRSAHandler_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B06BB9131A99AB0B36837AE1CCEF3FAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0AF93EB7B8C20E6E16E7BA3B9735D6F /* HBRSAHandler.debug.xcconfig */;
+			baseConfigurationReference = E09F83B51D6611386A6268E0CE5C202B /* HBRSAHandler.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +740,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/HBRSAHandler/HBRSAHandler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HBRSAHandler/HBRSAHandler.modulemap";
 				PRODUCT_MODULE_NAME = HBRSAHandler;
@@ -644,6 +753,20 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1F80C041D45490088FF2DE2B90647E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -680,6 +803,21 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D01D94100F0FDDFCB110A4F5D9EB618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -752,15 +890,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C3E5EA17BD82B7D5D2E220C81529961 /* Build configuration list for PBXNativeTarget "Pods-HBRSAHandler_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2938D136C5FC4CEC69A32B6EFBBF3175 /* Debug */,
-				923FB4DA39E1B4ABF7D738B24E7F396E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3F7E8A05EFB834A29545A4D2E9674508 /* Build configuration list for PBXNativeTarget "Pods-HBRSAHandler_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -779,11 +908,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F2DA0430B1B34762500C77264AA7830 /* Build configuration list for PBXNativeTarget "HBRSAHandler" */ = {
+		AC740FD4C282954C3F93AC45A021CC5E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B06BB9131A99AB0B36837AE1CCEF3FAB /* Debug */,
-				77780D25445282E7E292D249FB384988 /* Release */,
+				B1F80C041D45490088FF2DE2B90647E9 /* Debug */,
+				D01D94100F0FDDFCB110A4F5D9EB618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E6C77B46A67FD559FF1122F39A115B /* Build configuration list for PBXNativeTarget "Pods-HBRSAHandler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445442FE7EA3DCA97E355D244C8E9D1E /* Debug */,
+				3F07B8F8459A00D755A316D509FE008A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DAD71C494628D8A256530DE38FC75F /* Build configuration list for PBXNativeTarget "HBRSAHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80108FBC635D7AAB14E37E31F5BC4F2 /* Debug */,
+				53957CB8F06380EBEA90697CEA231A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
